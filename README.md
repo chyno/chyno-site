@@ -80,7 +80,7 @@ Prior to your first deployment, you'll need to do a few things:
 - Create two apps on Fly, one for staging and one for production:
 
   ```sh
-  fly apps create chyno-site-0fc7
+  /home/chyno/.fly/bin/fly apps create chyno-site-0fc7
   fly apps create chyno-site-0fc7-staging
   ```
 
